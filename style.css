@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(206, 8, 8);
+    border: 7px rgb(177, 171, 171) outset;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(20, 19, 19);
+}
+#border{
+    display: block;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    transform: translateY(-400px);
+    color:black
+}
